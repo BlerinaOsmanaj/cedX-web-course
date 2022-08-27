@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="https://www.google.com/" method="GET">
+        <p>Select your gender:</p>
+        <label class="female-radio" for="female">Female</label>
+        <input type="radio" id="female" value="female" name="gender">    
+        <label id="male-radio" for="male">Male</label>
+        <input type="radio" id="male" value="male" name="gender">
+
+    <p>Describe your experience</p>
+    <textarea name="experience" rows="10" cols="50">
+
+    </textarea>
+
+    <select name="programming languages" id="programming languages">
+        <option disabled selected value="">Select your programming language</option>
+        <option value="Python">Python</option>
+        <option value="Java">Java</option>
+        <option value="Javascript">Javascript</option>
+    </select>
+
+    <input list="programming languages">
+     <datalist id="languages">
+        <option value="Python">
+        <option value="Java">
+        <option value="Javascript">
+     </datalist>
+
+     <div>
+        <dl>
+            <dt>Html</dt>
+            <dd>- Hyper &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt; Text Markup Language</dd>
+            <dt>CSS</dt>
+            <dd>-Cascading Style Sheet</dd>
+        </dl>
+
+     </div>
+
+     <div class="languages">
+        <ul>
+         <li class="first">Albanian - is used in <span>Kosova and Albania</span>
+        Countries</li>
+        <li class="second">English - is used in <span>United Kingdom and USA</span></li>
+        <li>German</li>
+        </ul>
+     </div>
+
+     <div class="programming-languages">
+        <ul>
+            <li class="first">Javascript- is used for <span>web development</span>mostly
+            </li>
+            <li class="second">Java</li>
+            <li>Python</li>
+        </ul>
+     </div>
+
+     <input disabled type="submit">
+   </form>
+</body>
+</html>
